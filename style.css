@@ -1,0 +1,123 @@
+/*-------------------------
+Simple reset
+--------------------------*/
+*{
+	margin:0;
+	padding:0;
+}
+
+
+/*-------------------------
+General Styles
+--------------------------*/
+
+
+html{
+	background:url('../images/bg-careers.jpg') #2478B4 no-repeat center center fixed;
+	min-height:100%;
+	background-size:cover;
+}
+
+body{
+	font:20px 'Droid Sans', sans-serif;
+	color: #fff;
+	min-height:100%;
+}
+
+a, a:visited {
+	outline:none;
+	color:#389dc1;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+select {
+    background: #ececec;
+    border: 0;
+    border-radius: 0;
+    display: block;
+    margin-top: 2px;
+    padding: 2px 5px;
+    width: 100%;
+}
+
+
+/*-------------------------
+Registration Box Styling
+--------------------------*/
+
+
+#regblock{
+	background-color:#2956b2;
+	padding: 70px 80px;
+	width:500px;
+	height:900px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-225px 0 0 -325px;
+
+	box-shadow:0 2px 5px rgba(0,0,0,0.5);
+}
+
+#regblock h1{
+	font-size:36px;
+}
+
+#regblock input{
+	font: inherit;
+	font-size: 15px;
+	line-height: 15px;
+	background-color: #262525;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	display: block;
+	width: 450px;
+	margin: 5px 0 15px;
+	outline: none;
+}
+
+#regblock 
+#regblock p{
+	line-height:1.4;
+}
+
+#regblock button{
+	display:inline-block;
+	margin-top:50px;	
+	font:inherit;
+	font-weight:bold;
+	font-size:20px;
+	cursor:pointer;
+	background-color:#0000FF;
+	color:#fff;
+	padding:20px 45px;
+	border:none;
+}
+
+#regblock button:hover{
+	background-color:#61a8d5;
+}
+
+#comblock{
+	background-color:#2956b2;
+	padding: 70px 80px;
+	width:500px;
+	height:200px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-225px 0 0 -325px;
+
+	box-shadow:0 2px 5px rgba(0,0,0,0.5);
+}
+
+/*-------------------------
+Errors
+--------------------------*/
+#errors{
+color: #FF1919;
+}
